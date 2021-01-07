@@ -1,0 +1,71 @@
+{
+    "bridge": {
+        "name": "Homebridge",
+        "username": "0E:81:83:CB:33:C5",
+        "port": 51506,
+        "pin": "868-23-713"
+    },
+    "accessories": [],
+    "platforms": [
+        {
+            "name": "Config",
+            "port": 8581,
+            "platform": "config"
+        },
+        {
+            "platform": "Hue",
+            "users": {
+                "001788FFFEB4C839": "kwrcwDwqFYUaqDJQDY2EhHWAVbDXWM-Er71xDH-c"
+            },
+            "lights": true
+        },
+        {
+            "platform": "Nest",
+            "clientId": "b7d92245-984f-47cf-bb7a-058e40962e8c",
+            "clientSecret": "YVW5VHhi8b0ZptLNWwCM4qrVP",
+            "token": "c.B8vDi9zHs6sIZzu1KHqZRjwjwsVNYQOx4agOlB44HwnCj0ovAZHqmvdcMovaaFFS9a3C6VOrRp0bamAJbJDnnCHIOpMyroMZyYqd7d1bqr1vAZXsMBTHeGsu0ZvnBr8N7P3ixY5HYhehwiwD"
+        },
+        {
+            "platform": "TplinkSmarthome",
+            "name": "TplinkSmarthome",
+            "broadcast": "255.255.255.255",
+            "devices": [],
+            "deviceTypes": [],
+            "macAddresses": [],
+            "pollingInterval": 10,
+            "addCustomCharacteristics": true,
+            "inUseThreshold": 0,
+            "switchModels": [
+                "HS110"
+            ],
+            "timeout": 5
+        },
+        {
+            "platform": "BraviaPlatform",
+            "tvs": [
+                {
+                    "name": "TV",
+                    "ip": "192.168.0.62",
+                    "tvsource": "tv:dvbs",
+                    "soundoutput": "speaker",
+                    "maxchannels": 200,
+                    "cookiepath": "/var/lib/homebridge/sonycookie",
+                    "listapplications": 0,
+                    "apps": []
+                }
+            ]
+        },
+        {
+            "platform": "MarantzDenonTelnetPlatform"
+        },
+        {
+            "platform": "SamsungTVControl",
+            "devices": [
+                {
+                    "usn": "uuid:1834b619-f765-4f42-bed2-a16c5c4064c9",
+                    "name": "Lounge TV"
+                }
+            ]
+        }
+    ]
+}

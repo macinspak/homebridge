@@ -1,0 +1,75 @@
+{
+    "bridge": {
+        "name": "Homebridge",
+        "username": "0E:81:83:CB:33:C5",
+        "port": 51506,
+        "pin": "868-23-713"
+    },
+    "accessories": [],
+    "platforms": [
+        {
+            "name": "Config",
+            "port": 8581,
+            "platform": "config"
+        },
+        {
+            "platform": "Hue",
+            "users": {
+                "001788FFFEB4C839": "kwrcwDwqFYUaqDJQDY2EhHWAVbDXWM-Er71xDH-c"
+            },
+            "lights": true
+        },
+        {
+            "name": "Nest",
+            "access_token": "b.12788691.9yjOhRDEh4tDBkANESVVGcpWbd8J2qeDC6yEwneiZa6Wxp8ZL4KCRRBuVPy2lPbgCZC2IyDd2vquwAxJFqb1iyi14jc7Eb8NQs9vsOiBbwlzxZVPj1AVFN2ezXCKCmZ8QiNGT7gVpNFDCYuK_1608435024069",
+            "platform": "Nest"
+        },
+        {
+            "platform": "TplinkSmarthome",
+            "name": "TplinkSmarthome",
+            "broadcast": "255.255.255.255",
+            "devices": [],
+            "deviceTypes": [],
+            "macAddresses": [],
+            "pollingInterval": 10,
+            "addCustomCharacteristics": true,
+            "inUseThreshold": 0,
+            "switchModels": [
+                "HS110"
+            ],
+            "timeout": 5
+        },
+        {
+            "tvs": [
+                {
+                    "name": "Master TV",
+                    "ip": "192.168.100.243",
+                    "debug": true,
+                    "soundoutput": "speaker",
+                    "tvsource": "tv:dvbt",
+                    "sources": [
+                        "extInput:hdmi",
+                        "extInput:HDMI 2"
+                    ]
+                }
+            ],
+            "platform": "BraviaPlatform"
+        },
+        {
+            "platform": "MarantzDenonTelnetPlatform"
+        },
+        {
+            "platform": "SamsungTVControl",
+            "devices": [
+                {
+                    "usn": "uuid:1834b619-f765-4f42-bed2-a16c5c4064c9",
+                    "name": "Lounge TV"
+                }
+            ]
+        },
+        {
+            "platform": "ELPlatform",
+            "enableRefreshSwitch": true
+        }
+    ]
+}
