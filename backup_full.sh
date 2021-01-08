@@ -8,7 +8,7 @@ cp -R /etc/default/homebridge homebridge/etc/default
 cp -R /etc/systemd/system/homebridge.service homebridge/etc/systemd/system
 
 # system
-cp -R /etc/dhcpd.conf system/etc
+cp -R /etc/dhcp/dhcpd.conf system/etc/dhcp
 
 # commit any changes to git
 git add -A
