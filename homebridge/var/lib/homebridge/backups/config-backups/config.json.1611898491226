@@ -5,20 +5,7 @@
         "port": 51506,
         "pin": "868-23-713"
     },
-    "accessories": [
-        {
-            "name": "Roomba",
-            "model": "i7",
-            "blid": "23E5F7937E804E29B3FCCD01FDF1CD5E",
-            "robotpwd": ":1:1577860139:FtDCXMMc6Xn0s7PN",
-            "ipaddress": "192.168.100.15",
-            "autoRefreshEnabled": true,
-            "dockContactSensor": true,
-            "runningContactSensor": true,
-            "binContactSensor": true,
-            "accessory": "Roomba2"
-        }
-    ],
+    "accessories": [],
     "platforms": [
         {
             "name": "Config",
