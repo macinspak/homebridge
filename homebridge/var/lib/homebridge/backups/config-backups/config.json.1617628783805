@@ -56,11 +56,7 @@
             "platform": "BraviaPlatform"
         },
         {
-            "platform": "MarantzDenonTelnetPlatform",
-            "_bridge": {
-                "username": "0E:36:A7:87:54:36",
-                "port": 33669
-            }
+            "platform": "MarantzDenonTelnetPlatform"
         },
         {
             "platform": "SamsungTVControl",
@@ -85,7 +81,6 @@
         }
     ],
     "disabledPlugins": [
-        "homebridge-samsungtv-control",
-        "homebridge-echonet"
+        "homebridge-samsungtv-control"
     ]
 }
