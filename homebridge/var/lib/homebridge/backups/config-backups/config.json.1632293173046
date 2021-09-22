@@ -6,15 +6,7 @@
         "pin": "868-23-713",
         "advertiser": "ciao"
     },
-    "accessories": [
-        {
-            "accessory": "Kevo",
-            "name": "Front Door",
-            "username": "kevo@imagineit.com.au",
-            "password": "Cf9q]QD4?Nt}naUU4",
-            "lock_id": "3d245e38-3438-4b1d-be7c-08a132c69a0b"
-        }
-    ],
+    "accessories": [],
     "platforms": [
         {
             "name": "Config",
