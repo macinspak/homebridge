@@ -30,7 +30,7 @@
         },
         {
             "name": "Nest",
-            "access_token": "b.12788691.JSbuZruDTFcscWqktjv4HOqYpAyAsEPY53NlXAHyOb6lgTAXtTlsNHRxvsP7y0vzoyfJqJaUDsAqX74CL4noYNouCIpqXu4OwG30kdyOLkDrKBX6dFHNwxRWrSVDXadBuUJgWZf0RFEH6l1P_1650099315115",
+            "access_token": "b.12788691.9yjOhRDEh4tDBkANESVVGcpWbd8J2qeDC6yEwneiZa6Wxp8ZL4KCRRBuVPy2lPbgCZC2IyDd2vquwAxJFqb1iyi14jc7Eb8NQs9vsOiBbwlzxZVPj1AVFN2ezXCKCmZ8QiNGT7gVpNFDCYuK_1608435024069",
             "platform": "Nest"
         },
         {
@@ -64,6 +64,13 @@
             "platform": "BraviaPlatform"
         },
         {
+            "platform": "MarantzDenonTelnetPlatform",
+            "_bridge": {
+                "username": "0E:36:A7:87:54:36",
+                "port": 33669
+            }
+        },
+        {
             "name": "Wemo",
             "debug": true,
             "makerTypes": [
@@ -95,25 +102,6 @@
             "name": "WizSmarthome",
             "enableScenes": false,
             "platform": "WizSmarthome"
-        },
-        {
-            "devices": [
-                {
-                    "name": "Media Stereo",
-                    "zoneControl": 0,
-                    "volumeControl": 0,
-                    "masterPower": false,
-                    "masterVolume": false,
-                    "masterMute": false,
-                    "disableLogInfo": false,
-                    "disableLogDeviceInfo": false,
-                    "enableDebugMode": false,
-                    "enableMqtt": false,
-                    "mqttAuth": false,
-                    "mqttDebug": false
-                }
-            ],
-            "platform": "DenonTv"
         }
     ],
     "disabledPlugins": [
